@@ -9,7 +9,7 @@ import java.io.PrintStream;
  */
 
  class Main {
-	propublic static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws FileNotFoundException {
 		try {
 		SingletonPattern pattern=SingletonPattern.getObject();
 		
