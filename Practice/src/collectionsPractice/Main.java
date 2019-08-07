@@ -10,14 +10,12 @@ import java.io.PrintStream;
 
  class Main {
 	public static void main(String[] args) throws FileNotFoundException {
-		try {
+		
 		SingletonPattern pattern=SingletonPattern.getObject();
+		System.out.println("Avinash");
+
 		
-	}finally {
-		PrintStream out=new PrintStream("Avinash");
-		System.setOut(out);
-		
-	}
+	
 	}
 		
 
