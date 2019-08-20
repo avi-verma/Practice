@@ -26,7 +26,7 @@ public class RunnerClass {
 		 * node.right.left=new MyNode(6); node.right.right=new MyNode(8);
 		 * InOrderTraversal trav=new InOrderTraversal(); trav.inorderTraversal(node);
 		 */
-		System.out.println(8^8^4);
+		System.out.println(Math.abs(3.89));
 	}
 
 }
