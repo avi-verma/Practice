@@ -1,4 +1,8 @@
+
 package pack1;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Test1 {
 
@@ -8,5 +12,5 @@ public class Test1 {
 		System.out.println((double)(a/b));
 
 	}
-
+Queue<Node> queue=new LinkedList<Node>();
 }

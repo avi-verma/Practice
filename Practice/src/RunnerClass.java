@@ -26,7 +26,8 @@ public class RunnerClass {
 		 * node.right.left=new MyNode(6); node.right.right=new MyNode(8);
 		 * InOrderTraversal trav=new InOrderTraversal(); trav.inorderTraversal(node);
 		 */
-		System.out.println(Math.abs(3.89));
+		Palindrome p=new Palindrome();
+		System.out.println(p.isPalindrome(1212345));
 	}
 
 }
